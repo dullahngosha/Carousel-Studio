@@ -1,0 +1,71 @@
+project:
+  name: Uhamiaji Tanzania
+  output_width: 1080
+  output_height: 1350
+  aspect_ratio: "4:5"
+  total_slides: 15
+  batch_sizes: [10, 5]
+
+hard_rules:
+  one_slide_one_file: true
+  forbid_collage: true
+  forbid_grid: true
+  forbid_contact_sheet: true
+  forbid_split_screen: true
+  forbid_multi_panel: true
+  forbid_slide_numbers: true
+  deterministic_brand_layers: true
+
+brand:
+  primary: dark_navy_blue
+  accents:
+    - blue
+    - gold
+    - green
+    - light_green
+  website: "www.immigration.go.tz"
+  footer_name: "UHAMIAJI TANZANIA"
+  social_icons:
+    - instagram
+    - facebook
+    - x
+    - youtube
+    - tiktok
+  logo_path: "assets/official/immigration-logo.png"
+
+characters:
+  nyanzobe:
+    reference_path: "assets/references/nyanzobe.png"
+    role: "Mjue Jirani Yako educator"
+  mbitiyaza:
+    reference_path: "assets/references/mbitiyaza.png"
+    role: "Mjue Jirani Yako educator"
+
+uniform:
+  color: dark_navy_blue
+  lanyard_required: true
+  use_reference_only_for_insignia: true
+
+generation:
+  backend: comfyui
+  one_job_per_slide: true
+  negative_terms:
+    - collage
+    - grid
+    - contact sheet
+    - montage
+    - multi-panel
+    - split screen
+    - multiple slides
+    - tiled layout
+    - slide number
+
+animation:
+  animate_subjects_only: true
+  freeze_text: true
+  freeze_logo: true
+  freeze_icons: true
+  freeze_footer: true
+  prevent_face_drift: true
+  prevent_uniform_drift: true
+  prevent_text_morphing: true
