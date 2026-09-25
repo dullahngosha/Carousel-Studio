@@ -1,0 +1,20 @@
+project:
+  title: "GEITA: DHAHABU, FURSA NA USALAMA WA JAMII"
+  region: Geita
+  campaign: "Mjue Jirani Yako"
+  canvas: [1080,1350]
+  slides: 15
+  delivery: [10,5]
+  slogan: "KUMJUA JIRANI YAKO NI KULINDA TAIFA LAKO"
+
+visual:
+  style: "premium clean modern bright official"
+  one_scene_only: true
+  no_collage: true
+  logo: "exact approved Tanzania Immigration asset"
+  footer: true
+
+characters:
+  street_education: [Mbitiyaza,Nyanzobe]
+  uniform: dark_navy_blue
+  lanyard: required
