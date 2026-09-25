@@ -1,0 +1,41 @@
+official_assets:
+  immigration_logo:
+    path: assets/official/immigration-logo.png
+    immutable: true
+    rule: "Use exact supplied pixels. Never redraw, regenerate, recolor, restyle or approximate."
+  national_coat_of_arms:
+    path: assets/official/tanzania-coat-of-arms.png
+    immutable: true
+    rule: "Use exact supplied pixels only when specifically required."
+  mjue_jirani_yako_logo:
+    path: assets/official/mjue-jirani-yako-logo.png
+    immutable: true
+
+characters:
+  mbitiyaza:
+    uniform: assets/references/mbitiyaza-uniform.png
+    mjue_jirani_yako: assets/references/mbitiyaza-mjy.png
+    uniform_color: dark_navy_blue
+    add_lanyard_in_uniform_scenes: true
+  nyanzobe:
+    uniform: assets/references/nyanzobe-uniform.png
+    mjue_jirani_yako: assets/references/nyanzobe-mjy.png
+    uniform_color: dark_navy_blue
+    add_lanyard_in_uniform_scenes: true
+
+passports:
+  ordinary: assets/passports/ordinary-blue.png
+  service: assets/passports/service-green.png
+  diplomatic: assets/passports/diplomatic-red.png
+  group_reference: assets/passports/passport-group.png
+  inner_reference: assets/passports/passport-inner-reference.png
+  rule: "Passport colors, wording, coat of arms and physical appearance must follow approved reference. Never invent or recolor."
+
+brand:
+  palette_reference: assets/brand/brand-colors.png
+  mjy_primary_navy: "#1F4E79"
+  mjy_yellow: "#FFC107"
+  mjy_light_green: "#E8F5E1"
+  mjy_sky_blue: "#00B2F0"
+  black: "#000000"
+  light_gray: "#F5F5F5"
