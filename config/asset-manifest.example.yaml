@@ -1,0 +1,21 @@
+official:
+  immigration_logo:
+    path: assets/official/immigration-logo.png
+    policy: exact_asset_only
+characters:
+  nyanzobe:
+    path: assets/references/nyanzobe.png
+    identity_lock: true
+  mbitiyaza:
+    path: assets/references/mbitiyaza.png
+    identity_lock: true
+uniform:
+  reference_dir: assets/references/uniform
+  color: dark_navy_blue
+  lanyard_required: true
+social:
+  instagram: assets/social/instagram.png
+  facebook: assets/social/facebook.png
+  x: assets/social/x.png
+  youtube: assets/social/youtube.png
+  tiktok: assets/social/tiktok.png
